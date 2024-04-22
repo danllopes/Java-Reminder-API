@@ -44,6 +44,8 @@ public class CategoryService {
         return this.repository.findAll();
     }
 
+    public Category getCategory(String id) { return this.findCategoryById(id); }
+
     private void saveCategory(Category category) {
         this.repository.save(category);
     }
