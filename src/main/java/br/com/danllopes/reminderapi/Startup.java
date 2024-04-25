@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReminderapiApplication {
+public class Startup {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReminderapiApplication.class, args);
+		SpringApplication.run(Startup.class, args);
 	}
 
 }
